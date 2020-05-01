@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://java.sun.com/jsf/html" xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+<view contentType="text/html">
+</view>
+
+<head>
+    <title>DenTOP</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Gabriel menu bar plugin -->
+    <script src="js/gabriel-menu-plugin.js"></script>
+
+    <!-- Box Slider dependencies -->
+    <script src="js/jquery.bxslider.min.js"></script>
+    <link href="css/jquery.bxslider.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+    <script src="aboutus.js"></script>
+    <script src="index.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIhUeQQzSlH6ty1YqrMTcoLW72v1gfsI4"></script>
+</head>
+
+<body>
+    <!-- Title -->
+    <div class="jumbotron bg-blue text-center">
+        <img src="images/dentop-full.png" alt="logo">
+        <h2>Introducing <strong>DenTOP</strong></h2>
+        <p>Dentist Timetable Organizer Program</p>
+        </br><br/>
+        <p>A web system created for you not to worry about the <strong>scheduling</strong> of your dentist company.</p>
+        </br><br/>
+        <div id="startingPoint" class="titleScreen">
+            <img src="images/SystemPrints/print-for-jumbotron.png" alt="system-print">
+        </div>
+    </div>
+
+    <!-- Menu and Navbar-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#"><img src="images/dentop-mini.png" alt="Sort by speciallity"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="DenTOPnavbar">
+                <ul class="nav navbar-nav navbar-right" id="menu_plugin">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="joinus.html">Join Us</a></li>
+                    <li><a href="ourteam.html">Our Team</a></li>
+                    <li><a id="current" href="aboutus.html">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="bg-black  main-padding">
+        <!-- Starting Point of the Page -->
+
+        <div id="startingPoint" class="text-center bg-default">
+            <br><br>
+            <h2>ABOUT US</h2>
+            <p> Some <strong>information</strong> about our company.</p>
+            <br>
+        </div>
+
+
+
+        <!-- About us -->
+        <div id="aboutus" class="container-fluid bg-grey">
+            <div class="row">
+                <div class="col-sm-3 slideanim">
+                    <img src="images/software-256.png" alt="Logo from about us">
+                </div>
+                <div class="col-sm-9 slideanim">
+                    <h2><strong>WHO</strong> ARE WE?</h2><br>
+                    <h4><strong>Our Company: </strong> G'Software is a <strong>Software Factory</strong>, founded in 1994, that helps your business to move forward.</h4><br>
+                    <h4><strong>Our Mission: </strong> Provide good quality software, safe, secure and with the best technologies in the market.</h4><br>
+                    <h4><strong>Our Vision: </strong> To become one of the most successful software companies in our region, increase the satisfaction of our customers providing support
+                  and patches, and keep improving our team's skills.</h4><br>
+                    <h4><strong>Our Values: </strong> Always work with ethic, profissionalism, responsability and respect.</h4><br>
+                </div>
+            </div>
+        </div>
+
+        <!-- Where are we -->
+        <div id="where are we" class="container-fluid text-center bg-default slideanim">
+            <h2><strong>WHERE</strong> ARE WE?</h2><br>
+            <h4>Our company is located in the city of <strong>Salvador, Bahia</strong>, in Downtown.</h4><br>
+            <div id="map" class="container-fluid text-center bg-grey slideanim">
+              <script>
+              </script>
+            </div>
+        </div>
+
+
+        <!-- More from us -->
+        <div id="morefromus" class="container-fluid text-center bg-grey slideanim">
+            <div class="row">
+                <h2><strong>MORE</strong> FROM US</h2><br>
+                <div class="col-sm-4 slideanim">
+                    <div id="moresoftware">
+                        <br/><br/>
+                        <img src="images/MoreFromUs/reginalplanner-edited.png" style="width:100%" alt="Sort by speciallity">
+                        <br/><br/>
+                        <p><strong>Regional Adaptation Simulation</strong></p>
+                        <p>A simulator written in Python to make tests on the research about Adaptive Regional Planner on Complex Self-Adaptive Software.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 slideanim">
+                    <div>
+                        <br/><br/>
+                        <img src="images/MoreFromUs/medicinalbrazil-edited.png" style="width:100%" alt="Sort by speciallity">
+                        <br/><br/>
+                        <p><strong>Medicinal Brazil</strong></p>
+                        <p>A partnership between Java and Chemicals. Explore the most used herbs for each Brazilian region, with the support of the chemical functions at your hand.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 slideanim">
+                    <div id="moresoftware">
+                        <br/><br/>
+                        <img src="images/MoreFromUs/ashleyslate-edited.png" style="width:100%" alt="Sort by speciallity">
+                        <br/><br/>
+                        <p><strong>Ashley's Late Fee Calculator</strong></p>
+                        <p>Forgot to return a movie? Know how much you will need to pay even before leaving home with this application written completely in C#.</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="slideanim" id="contacts">
+                    <a href="https://www.facebook.com/gabiferreirabarros" target="_blank"><img src="images/MoreFromUs/facebook-logo-button.png" id="facebook" class="logo" title="Meu Facebook"></a>
+                    <a href="mailto:gabriel.fbsousa.94@gmail.com" target="_blank"><img src="images/MoreFromUs/email.png" id="gmail" class="logo" title="Meu E-mail (gabriel.fbsousa.94@gmail.com)"></a>
+                    <a href="https://github.com/gabrielfbsousa" target="_blank"><img src="images/MoreFromUs/github-logo.png" id="github" class="logo" title="Meu perfil do Github"></a>
+                    <a href="https://www.linkedin.com/in/gabriel-ferreira-barros-de-sousa-6989b4138/" target="_blank"><img src="images/MoreFromUs/linkedin-logo.png" id="linkedin" class="logo" title="Meu LinkedIn"></a>
+                    <a href="http://lattes.cnpq.br/8066562125238604" target="_blank"><img src="images/MoreFromUs/lattes.png" id="lattes" class="logo" title="Meu Currículo Lattes"></a>
+                    <a href="resume.html" target="_blank"><img src="images/MoreFromUs/cv.png" id="cv" class="logo" title="Meu Currículo"></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Footer -->
+    <footer id="credits" class="container-fluid text-center">
+        <a href="#myPage" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>
+        <p>Software free icon made by <a href="http://www.flaticon.com/authors/freepik">Freepik</a> at <a href="http://www.flaticon.com/free-icon/software_207787#term=software&page=1&position=27"> flaticon</a></p>
+        <p>Facebook black social button circle free icon made by <a href="http://www.flaticon.com/authors/linh-pham">Linh Pham</a> at <a href="http://www.flaticon.com/free-icon/facebook-black-social-button-circle_54997#term=facebook%20icon&page=1&position=7"> flaticon</a></p>
+        <p>Software free icon made by <a href="http://www.flaticon.com/authors/freepik">Freepik</a> at <a href="http://www.flaticon.com/free-icon/software_207787#term=software&page=1&position=27"> flaticon</a></p>
+        <p>Email free icon made by <a href="http://www.flaticon.com/authors/chanut-is-industries">Chanut is Industries</a> at <a href="http://www.flaticon.com/free-icon/email_181535#term=mail&page=1&position=3"> flaticon</a></p>
+        <p>Github logo icon made by <a href="http://www.flaticon.com/authors/dave-gandy">Dave Gandy</a> at <a href="http://www.flaticon.com/free-icon/github-logo_25231#term=github&page=1&position=2"> flaticon</a></p>
+        <p>Linkedin logo free icon made by <a href="http://www.flaticon.com/authors/freepik">Freepik</a> at <a href="http://www.flaticon.com/free-icon/linkedin-logo_49408#term=linkedin&page=1&position=20"> flaticon</a></p>
+        <p>Curriculum vitae free icon made by <a href="http://www.flaticon.com/authors/dinosoftlabs">DinosoftLabs</a> at <a href="http://www.flaticon.com/free-icon/curriculum-vitae_345710#term=curriculum&page=1&position=25"> flaticon</a></p>
+    </footer>
+</body>
+
+</html>

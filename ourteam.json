@@ -1,0 +1,140 @@
+{"teammembers":[
+	{
+		"name":"Gabriel Ferreira",
+		"title":"CEO",
+		"department": "Administration",
+		"bio":"Cyclist, coffee addict, fender owner, Saul Bass fan and Guest speaker. Producing at the crossroads of aesthetics and programing to create great work for living breathing human beings. Let's design a world that's thoughtful, considered and aesthetically pleasing."
+	},
+	{
+		"name":"Therese Ward",
+		"title":"Senior Manager",
+		"department": "Administration",
+		"bio":"Biker, risk-taker, guitarist, Bauhaus fan and screen printer. Working at the crossroads of beauty and purpose to give life to your brand. I'm a designer and this is my work."
+	},
+	{
+		"name":"Tamra Merrick",
+		"title":"Architect",
+		"department": "Development",
+		"bio":"Cyclist, tattoo addict, guitarist, Vignelli fan and front-end developer. Operating at the sweet spot between beauty and elegance to craft delightful brand experiences. German award-winning designer raised in Austria & currently living in New York City."
+	},
+	{
+		"name":"Frank Jasper",
+		"title":"Architect",
+		"department": "Development",
+		"bio":"Fixie owner, ninja, DJ, Saul Bass fan and brand builder. Working at the crossroads of art and purpose to craft an inspiring, compelling and authentic brand narrative. I am 20 years old."
+	},
+	{
+		"name":"Osvaldo Benjamin",
+		"title":"Project Manager",
+		"department": "Administration",
+		"bio":"Baseball fan, nature enthusiast, DJ, Swiss design-head and front-end developer. Operating at the crossroads of simplicity and purpose to craft experiences both online and in real life. Check me out on Dribbble or Medium."
+	},
+	{
+		"name":"Jaylin Cassidy",
+		"title":"Project Manager",
+		"department": "Administration",
+		"bio":"Fixie owner, self-starter, guitarist, Mad Men fan and fullstack designer. Making at the fulcrum of beauty and computer science to save the world from bad design. Let's chat."
+	},
+	{
+		"name":"Spike Riley",
+		"title":"Tech Leader",
+		"department": "Development",
+		"bio":"Football fan, dreamer, ukulelist, Bauhaus fan and proud pixelpusher. Making at the sweet spot between beauty and mathematics to save the world from bad design. Concept is the foundation of everything else."
+	},
+	{
+		"name":"Ryan Paxton",
+		"title":"Tech Leader",
+		"department": "Development",
+		"bio":"Skier, self-starter, fender owner, Vignelli fan and proud pixelpusher. Doing at the junction of art and computer science to create not just a logo, but a feeling. I prefer clear logic to decoration."
+	},
+	{
+		"name":"Domingos Wayne",
+		"title":"Team Leader",
+		"department": "Administration",
+		"bio":"Student. Social mediaholic. Alcohol enthusiast. Reader. Amateur coffee lover. Friendly troublemaker. Internet junkie."
+	},
+	{
+		"name":"Mort Zachery",
+		"title":"Team Leader",
+		"department": "Administration",
+		"bio":"Soccer lover, vegan, record lover, reclaimed wood collector and HTML & CSS lover. Producing at the intersection of beauty and computer science to answer design problems with honest solutions. Let's design a world that's thoughtful, considered and aesthetically pleasing."
+	},
+	{
+		"name":"Glaucio Andrade",
+		"title":"Team Leader",
+		"department": "Administration",
+		"bio":"Hiking addict, hustler, fender owner, hand letterer and HTML5 Guru. Producing at the nexus of art and function to give life to your brand. German award-winning designer raised in Austria & currently living in New York City."
+	},
+	{
+		"name":"Vivian Wyatt",
+		"title":"Team Leader",
+		"department": "Development",
+		"bio":"Skier, ramen eater, drummer, hand letterer and collaborator. Working at the nexus of modernism and sustainability to craft experiences both online and in real life. I'm fueled by craft beer, hip-hop and tortilla chips."
+	},
+	{
+		"name":"Braiden Davy",
+		"title":"Business Analyst",
+		"department": "Analysis",
+		"bio":"Hiking addict, foodie, music blogger, Swiss design-head and growthhacker. Operating at the fulcrum of art and elegance to develop visual solutions that inform and persuade. Let's chat."
+	},
+	{
+		"name":"Jayce Natanael",
+		"title":"Senior Software Engineer",
+		"department": "Development",
+		"bio":"Fixie owner, traveler, ukulelist, Bauhaus fan and Guest speaker. Producing at the intersection of beauty and computer science to create great work for living breathing human beings. I am 20 years old."
+	},
+	{
+		"name":"Frank Abe",
+		"title":"Senior Quality Assurance",
+		"department": "Quality Assurance",
+		"bio":"Basketball fan, father of 3, music blogger, Mad Men fan and HTML5 Guru. Doing at the junction of minimalism and purpose to craft meaningful ideas that endure. I sometimes make random things with friends."
+	},
+	{
+		"name":"Stewart Micky",
+		"title":"Senior Developer",
+		"department": "Development",
+		"bio":"Skydiver, doer, audiophile, vintage furniture lover and collaborator. Operating at the nexus of beauty and programing to craft delightful brand experiences. I'm fueled by craft beer, hip-hop and tortilla chips."
+	},
+	{
+		"name":"Domingos Orrell",
+		"title":"Software Engineer",
+		"department": "Development",
+		"bio":"Baseball fan, doer, fender owner, Eames fan and TDC honorary member. Working at the nexus of design and intellectual purity to craft experiences that go beyond design. Let's make every day A RAZZLE-DAZZLE MUSICAL."
+	},
+	{
+		"name":"Kelly Isiah",
+		"title":"Quality Assurance Engineer",
+		"department": "Quality Assurance",
+		"bio":"Cyclist, ramen eater, record lover, Vignelli fan and proud pixelpusher. Performing at the intersection of art and elegance to craft meaningful ideas that endure. I work with Fortune 500 companies and startups."
+	},
+	{
+		"name":"Carlos Marcelino",
+		"title":"Development Supervisor",
+		"department": "Development",
+		"bio":"Surfer, risk-taker, fender owner, Eames fan and multidisciplinary designer. Making at the nexus of simplicity and intellectual purity to craft delightful brand experiences. Concept is the foundation of everything else."
+	},
+	{
+		"name":"Lowell Reid",
+		"title":"Associate Software Engineer",
+		"department": "Development",
+		"bio":"Soccer lover, nature enthusiast, band member, Vignelli fan and recent OCAD grad. Producing at the fulcrum of beauty and function to give life to your brand. I'm fueled by craft beer, hip-hop and tortilla chips."
+	},
+	{
+		"name":"Franklyn Garnett",
+		"title":"Associate Quality Assurance Engineer",
+		"department": "Quality Assurance",
+		"bio":"Football fan, follower of Christ, fender owner, hand letterer and screen printer. Doing at the intersection of aesthetics and function to save the world from bad design. Check me out on Dribbble or Medium."
+	},
+	{
+		"name":"Mathew Tom",
+		"title":"Junior Developer",
+		"department": "Development",
+		"bio":"Basketball fan, nature enthusiast, ukulelist, Mad Men fan and front-end developer. Making at the junction of modernism and sustainability to give life to your brand. Check me out on Dribbble or Medium."
+	},
+	{
+		"name":"Teo Mitchell",
+		"title":"Junior Business Analyst",
+		"department": "Analysis",
+		"bio":"Skier, father of 2, hiphop head, reclaimed wood collector and TDC honorary member. Producing at the sweet spot between beauty and purpose to express ideas through design. I'm fueled by craft beer, hip-hop and tortilla chips."
+	}
+]}

@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://java.sun.com/jsf/html" xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+<view contentType="text/html">
+</view>
+
+<head>
+    <title>DenTOP</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Gabriel menu bar plugin -->
+    <script src="js/gabriel-menu-plugin.js"></script>
+
+    <!-- Box Slider dependencies -->
+    <script src="js/jquery.bxslider.min.js"></script>
+    <link href="css/jquery.bxslider.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <!-- Title -->
+    <div class="jumbotron bg-blue text-center">
+        <img src="images/dentop-full.png" alt="logo">
+        <h2>Introducing <strong>DenTOP</strong></h2>
+        <p>Dentist Timetable Organizer Program</p>
+        </br><br/>
+        <p>A web system created for you not to worry about the <strong>scheduling</strong> of your dentist company.</p>
+        </br><br/>
+        <div id="startingPoint" class="titleScreen">
+            <img src="images/SystemPrints/print-for-jumbotron.png" alt="system-print">
+        </div>
+    </div>
+
+    <!-- Menu and Navbar-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#"><img src="images/dentop-mini.png" alt="Sort by speciallity"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="DenTOPnavbar">
+                <ul class="nav navbar-nav navbar-right" id="menu_plugin">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a id="current" href="features.html">Features</a></li>
+                    <li><a href="joinus.html">Join Us</a></li>
+                    <li><a href="ourteam.html">Our Team</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="home" class="bg-black main-padding">
+
+        <!-- Starting Point of the Page -->
+        <div id="startingPoint" class="text-center bg-default">
+            <br><br>
+            <h2>FEATURES</h2>
+            <p> Take a look at some <strong>functionalities</strong> that we can offer to you.</p>
+            <br>
+        </div>
+
+        <!-- Make Things Easier for your Dentists -->
+        <div id="MakeThingsEasier" class="container-fluid text-center bg-grey">
+            <h2><strong>MAKE THINGS EASIER</strong> FOR YOU DENTISTS...</h2><br/>
+            <h4>Exclusive features that will make your team of dentists <strong>more productive</strong>.</h4>
+            <br/>
+
+            <div class="row text-center slideanim">
+                <div class="col-sm-4 slideanim">
+                    <div id="shadow">
+                        <br/><br/>
+                        <img src="images/ForDentists/ByDate-Alternative.png" alt="Sort by speciallity">
+                        <br/><br/>
+                        <p><strong>Review schedule by date</strong></p>
+                        <p>You dentists can select any date and rewind past appointments or review today's schedule!</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 slideanim">
+                    <div id="shadow">
+                        <br/><br/>
+                        <img src="images/ForDentists/Schedule-Alternative.png" alt="Sort by speciallity">
+                        <br/><br/>
+                        <p><strong>View each appointment individually</strong></p>
+                        <p>With DenTOP, your dentists can see detailed information of their schedule!</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 slideanim">
+                    <div id="shadow">
+                        <br/><br/>
+                        <img src="images/ForDentists/ByPatient-Alternative.png" alt="Sort by speciallity">
+                        <br/><br/>
+                        <p><strong>Follow each patient's evolution individually</strong></p>
+                        <p>To provide better feedback to your costumer, it's possible to see how they advanced!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slideshow -->
+        <div id="carousel" class="container-fluid text-center bg-default slideanim">
+            <h2>... AND FOR YOUR <strong>ASSISTANTS</strong></h2><br/>
+            <h4>Easy steps to <strong>schedule</strong> an appointment</h4>
+            <ul id="slider">
+                <li><img src="images/carousel/ordered/1.png" title="Customer calls, and assistant logs into DenTOP"></li>
+                <li><img src="images/carousel/ordered/2.png" title="Quick registers or searches the customer"></li>
+                <li><img src="images/carousel/ordered/3.png" title="Select a dentist by speciallity..."></li>
+                <li><img src="images/carousel/ordered/4.png" title="... or even by name"></li>
+                <li><img src="images/carousel/ordered/5.png" title="Select a date for the appointment"></li>
+                <li><img src="images/carousel/ordered/6.png" title="Chooses a spot"></li>
+                <li><img src="images/carousel/ordered/7.png" title="Confirm the registered appointment"></li>
+            </ul>
+        </div>
+
+
+        <!-- Manage your dentists, customers and assistants -->
+        <div id="ManageEverything" class="container-fluid text-center slideanim bg-grey">
+            <h2><strong>MANAGE</strong> YOUR DENTISTS, CUSTOMERS AND EVEN YOUR ASSISTANTS!</h2><br/>
+            <h4>You can <strong>add, remove or edit</strong> them...</h4>
+            <div class="row text-center slideanim">
+                <div class="col-sm-4 slideanim">
+                    <div>
+                        <br/><br/>
+                        <p><strong>ADD</strong></p>
+                        <img src="images/Manage/Added-rounded.png" alt="Sort by speciallity">
+                        <br/><br/>
+                        <p>Create a new dentist with his/her speciallities. Or you can even create a costumer. You decide!</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 slideanim">
+                    <div>
+                        <br/><br/>
+                        <p><strong>EDIT</strong></p>
+                        <img src="images/Manage/Edit-rounded.png" alt="Sort by speciallity">
+                        <br/><br/>
+                        <p>Your customer changed his/her e-mail? Celphone number? No Problem! You can edit it!</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 slideanim">
+                    <div>
+                        <br/><br/>
+                        <p><strong>REMOVE</strong></p>
+                        <img src="images/Manage/Delete-rounded.png" alt="Sort by speciallity">
+                        <br/><br/>
+                        <p>Had to reduce the size of your team? No problem too!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="credits" class="container-fluid text-center">
+        <a href="#myPage" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>
+        <p>Tooth free icon made by <a href="http://www.flaticon.com/authors/freepik">Freepik</a> at <a href="http://www.flaticon.com/free-icon/tooth_304759#term=dentist&page=8&position=52"> flaticon</a></p>
+        <p>Dentist tools free icon made by <a href="http://www.flaticon.com/authors/freepik">Freepik</a> at <a href="http://www.flaticon.com/free-icon/dentist-tools_304713#term=dentist&page=6&position=6"> flaticon</a></p>
+        <p>Hemostat free icon made by <a href="http://www.flaticon.com/authors/freepik">Freepik</a> at <a href="http://www.flaticon.com/free-icon/hemostat_92692#term=dentist&page=5&position=111"> flaticon</a></p>
+    </footer>
+</body>
+
+</html>

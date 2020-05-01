@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://java.sun.com/jsf/html" xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+<view contentType="text/html">
+</view>
+
+<head>
+    <title>DenTOP</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <!-- Gabriel menu bar plugin -->
+    <script src="js/gabriel-menu-plugin.js"></script>
+
+    <!-- Box Slider dependencies -->
+    <script src="js/jquery.bxslider.min.js"></script>
+    <link href="css/jquery.bxslider.css" rel="stylesheet">
+
+    <!-- Accordion dependencies -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="css/accordionbuttons.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="index.css">
+    
+    <script src="ourteam.js"></script>
+    
+    
+</head>
+
+<body>
+
+    <!-- Title -->
+    <div class="jumbotron bg-blue text-center">
+        <img src="images/dentop-full.png" alt="logo">
+        <h2>Introducing <strong>DenTOP</strong></h2>
+        <p>Dentist Timetable Organizer Program</p>
+        </br><br/>
+        <p>A web system created for you not to worry about the <strong>scheduling</strong> of your dentist company.</p>
+        </br><br/>
+        <div id="startingPoint" class="titleScreen">
+            <img src="images/SystemPrints/print-for-jumbotron.png" alt="system-print">
+        </div>
+    </div>
+
+    <!-- Menu and Navbar-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#"><img src="images/dentop-mini.png" alt="Sort by speciallity"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="DenTOPnavbar">
+                <ul class="nav navbar-nav navbar-right" id="menu_plugin">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="joinus.html">Join Us</a></li>
+                    <li><a id="current" href="ourteam.html">Our Team</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+ <div id="home" class="bg-black main-padding">
+        <!-- Starting Point of the Page -->
+        <div id="startingPoint" class="text-center bg-default">
+            <br><br>
+            <h2>OUR TEAM</h2>
+            <p> Take a look at <strong>who</strong> brought this technology to you.</p>
+            <br>                        
+        </div>
+
+        <!-- Hierarchy and Show/Hide -->
+        <div id="hierarchy" class=" container-fluid text-center bg-grey">
+            <h2>HIERARCHY</h2>
+            <p> This is how our team works...</p>
+            <div class="row slideanim">
+                <div class="col-sm-6 slideanim">
+                    <img src="images/Hierarchy/Hierarchy-smaller.png" alt="Hierarchy">
+                </div>
+                <br>
+                <div class="col-sm-5">
+                    <div id="accordion">
+                        <h3 class="button level1 slideanim">CEO</h3>
+                        <div id="CEO">
+                        </div>
+                        <h3 class="button level2 slideanim">Senior Manager</h3>
+                        <div id="senior_manager">
+                        </div>
+                        <h3 class="button level3 slideanim">Architects and Project Managers</h3>
+                        <div id="architects_projectmanager">
+                        </div>
+                        <h3 class="button level4 slideanim">Tech Leaders, Team Leaders and Business Analysts</h3>
+                        <div id="tech_leaders_team_leaders_business_analysts">
+                        </div>
+                        <h3 class="button level5 slideanim">Senior Software Engineers, Senior Quality Assurances and Senior Developers</h3>
+                        <div id="senior_se_sqa_sd">
+                        </div>
+                        <h3 class="button level6 slideanim">Software Engineer, Quality Assurance Engineer and Development Supervisors</h3>
+                        <div id="software_qaengineer_development_supervisors">
+                        </div>
+                        <h3 class="button level7 slideanim">Associate Software Engineers, Associate Quality Assurance Engineers, Junior Developers and Junior Business Analysts</h3>
+                        <div id="associate_and_junior">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>       
+    </div>
+
+
+    <!-- Footer -->
+    <footer id="credits" class="container-fluid text-center">
+        <a href="#myPage" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>
+        <p>Name generator made By <a href="http://www.behindthename.com/">Behind the name</a></p>
+        <p>Biography generator made By <a href="lab.sulko.co/designer-bio">Designer Bio Generator</a></p>
+        <p>Second bio generator By <a href="http://twitterbiogenerator.com/">Twitter Bio Generator</a></p>
+    </footer>
+</body>
+
+</html>

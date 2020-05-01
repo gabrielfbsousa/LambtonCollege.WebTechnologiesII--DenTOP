@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://java.sun.com/jsf/html" xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+<view contentType="text/html">
+</view>
+
+<head>
+    <title>DenTOP</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Gabriel menu bar plugin -->
+    <script src="js/gabriel-menu-plugin.js"></script>
+
+    <!-- Box Slider dependencies -->
+    <script src="js/jquery.bxslider.min.js"></script>
+    <link href="css/jquery.bxslider.css" rel="stylesheet">
+
+    <!-- Validation -->
+    <script src="js/jquery.validate.min.js"></script>
+
+    <link rel="stylesheet" href="index.css">
+    <script src="joinus.js"></script>
+    <script src="index.js"></script>
+</head>
+
+
+<body>
+    <!-- Title -->
+    <div class="jumbotron bg-blue text-center">
+        <img src="images/dentop-full.png" alt="logo">
+        <h2>Introducing <strong>DenTOP</strong></h2>
+        <p>Dentist Timetable Organizer Program</p>
+        </br><br/>
+        <p>A web system created for you not to worry about the <strong>scheduling</strong> of your dentist company.</p>
+        </br><br/>
+        <div id="startingPoint" class="titleScreen">
+            <img src="images/SystemPrints/print-for-jumbotron.png" alt="system-print">
+        </div>
+    </div>
+
+    <!-- Menu and Navbar-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#"><img src="images/dentop-mini.png" alt="Sort by speciallity"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="DenTOPnavbar">
+                <ul class="nav navbar-nav navbar-right" id="menu_plugin">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a id="current" href="joinus.html">Join Us</a></li>
+                    <li><a href="ourteam.html">Our Team</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div id="home" class="bg-black main-padding">
+
+        <!-- Starting Point of the Page -->
+        <div id="startingPoint" class="text-center bg-default">
+            <br><br>
+            <h2>JOIN US</h2>
+            <p>Subscribe and get <strong>free</strong> a temporary Login/Password combination to test DenTOP by yourself!</p>
+            <br>
+        </div>
+
+
+        <div id="registerform" class="bg-grey text-center">
+            <br><br>
+            <h2>REGISTRATION</h2>
+            <p>In order to get a temporary account to do a test-drive at DenTOP, just fill the form below: </p>
+            <br/>
+            <div class="text-center slideanim">
+                <div class="row">
+                    <form id="joinus_form" name="joinus_form" action="index.html" method="get">
+                        <label for="first_name">First Name: </label>
+                        <input type="text" id="first_name" name="first_name" placeholder="Gabriel" />
+                        <br/>
+
+                        <label for="last_name">Last Name: </label>
+                        <input type="text" id="last_name" name="last_name" placeholder="Ferreira" />
+                        <br/>
+
+                        <label for="email">E-mail: </label>
+                        <input type="text" id="email" name="email" placeholder="gabrielfbarros@me.com" />
+                        <br/>
+
+                        <label for="confirmemail">Confirm E-mail: </label>
+                        <input type="text" id="confirmemail" name="confirmemail" placeholder="gabrielfbarros@me.com" />
+                        <br/>
+
+                        <label for="password">Password for your temporary account: </label>
+                        <input type="text" id="password" name="password" placeholder="*********" />
+                        <br/>
+
+                        <label for="confirmpassword">Confirm Password: </label>
+                        <input type="text" id="confirmpassword" name="confirmpassword" placeholder="*********" />
+                        <br/>
+                    </form>
+
+
+                    <input type="button" id="submit" value="Submit" />
+                    <br/>
+                    <br><br>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer id="credits" class="container-fluid text-center">
+        <a href="#myPage" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>
+    </footer>
+</body>
+
+</html>

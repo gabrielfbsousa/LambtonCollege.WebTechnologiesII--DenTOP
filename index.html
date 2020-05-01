@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://java.sun.com/jsf/html" xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+<view contentType="text/html">
+</view>
+
+<head>
+    <title>DenTOP</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Import to use Font Lato -->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+
+    <!-- Box Slider dependencies -->
+    <script src="js/jquery.bxslider.min.js"></script>
+    <link href="css/jquery.bxslider.css" rel="stylesheet">
+
+    <!-- Gabriel menu bar plugin -->
+    <script src="js/gabriel-menu-plugin.js"></script>
+
+    <!-- iPicture dependencies -->
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/jQuery.iPicture.css" />
+    <script type="text/javascript" src="js/jQuery.iPicture.js"></script>
+
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <!-- Menu and Navbar-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#"><img src="images/dentop-mini.png" alt="Sort by speciallity"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="DenTOPnavbar">
+                <ul class="nav navbar-nav navbar-right" id="menu_plugin">
+                    <li><a id="current" href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="joinus.html">Join Us</a></li>
+                    <li><a href="ourteam.html">Our Team</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Title -->
+    <div id="startingPoint" class="jumbotron bg-blue text-center">
+        <img src="images/dentop-full.png" alt="logo">
+        <h2>Introducing <strong>DenTOP</strong></h2>
+        <p>Dentist Timetable Organizer Program</p>
+        <br/><br/>
+        <p>A web system created for you not to worry about the <strong>scheduling</strong> of your dentist company.</p>
+        <br/><br/>
+        <div>
+            <img src="images/SystemPrints/print-for-jumbotron.png" alt="system-print">
+        </div>
+    </div>
+
+    <!-- Home -->
+    <div class="bg-black">
+
+        <div id="home" class="bg-black main-padding">
+            <!-- Welcome to the Future -->
+            <div id="whatIsIt" class="container-fluid bg-default">
+                <div class="row">
+                    <div class="col-sm-9 slideanim">
+                        <h2>WELCOME TO THE <strong>FUTURE</strong></h2><br>
+                        <h4><strong>NO MORE TEXTBOOKS...</strong>Textbooks are on the past! with DenTOP, you leave your pen and paper away, and enter your dentist business into the digital era!</h4><br>
+                        <p>DenTOP is a web system, which helps you to manage and schedule appointments for your patients quickly. But it is not only this: you can manage and review the appointments from each one of your customers. More than that, you can
+                            manage your dentists, review their schedule, view the content of the appointments and much more!</p>
+                    </div>
+                    <div class="col-sm-3 slideanim">
+                        <img src="images/content.png" alt="Schedule Overlapping">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Your team -->
+            <div id="YourTeam" class="container-fluid bg-grey">
+                <div class="row">
+                    <div class="col-sm-3 slideanim">
+                        <img src="images/dentist-256.png" alt="Schedule Overlapping">
+                    </div>
+                    <div class="col-sm-9 slideanim">
+                        <h2><strong>SATISFACTION</strong> FOR YOUR TEAM...</h2><br>
+                        <h4><strong>WITH DenTOP, YOUR DENTISTS GET TOOLS TO ORGANIZE THEIR SCHEDULE.</strong> Before leaving home, with a single view on the DenTOP system, they can plan how will be their day!</h4><br>
+                        <p> More than that: the DenTOP web system can help them to follow along all the development of the patient's treatments, due to the possibility to review the appointments by patient. The dentists can have a complete report of the previous
+                            meetings, with description and pictures. With more control over their schedule and appointments, your team have tools to adjust themselves and offer more!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Customers -->
+            <div id="Customers" class="container-fluid bg-default">
+                <div class="row">
+                    <div class="col-sm-9 slideanim">
+                        <h2>... AND FOR <strong>YOUR CUSTOMERS</strong></h2><br>
+                        <h4><strong>THEIR DENTAL NEEDS ATTENDED ON ONE RING. </strong> DenTOP simplifies the way your patients will make appointments. On less than one minute, with a single call, they grant a seat with the best dentists.</h4><br>
+                        <p>DenTOP makes the scheduling process completely easy. When calling to your dentist, an assistant will have the needed toos to quickly find a spot for your customer. Needs special treatment? no problem: our system qualifies dentists
+                            by their skills. Just need "the same as always"? That's good too: by reviewing his/her historic, the assistant will find your preferred doctors. See more on our step-by-step presented on the Features section.</p>
+                    </div>
+                    <div class="col-sm-3 slideanim">
+                        <img src="images/customer-256.png" alt="Schedule Overlapping">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Features -->
+            <div id="features" class="container-fluid text-center bg-grey ">
+                <h2>BENEFITS THAT DENTOP CAN PROVIDE</h2>
+                <br>
+                <div class="row slideanim">
+                    <div class="col-sm-4">
+                        <img src="images/schedule-overlapping-64.png" alt="Schedule Overlapping">
+                        <h4>AVOID SCHEDULE OVERLAPPING</h4>
+                        <p>No more problems of two appointments schedule for the same time.</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="images/automatic-64.png" alt="Schedule View">
+                        <h4>AUTOMATIZE SCHEDULE VIEW</h4>
+                        <p>Appointments seen in a clean but detailed interface.</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="images/content-64.png" alt="Appointment Content">
+                        <h4>EASY ACCESS TO APPOINTMENT CONTENT</h4>
+                        <p>You can review all the information from the appointments easily.</p>
+                    </div>
+                </div>
+                <br/><br/>
+                <div class="row slideanim">
+                    <div class="col-sm-4">
+                        <img src="images/photo-upload-64.png" alt="Upload Photos">
+                        <h4>UPLOAD PHOTOS TO SPECIFIC APPOINTMENTS</h4>
+                        <p>Add information and even photos to describe the appointments</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="images/sort-speciallity-64.png" alt="Sort by speciallity">
+                        <h4>SORT YOUR DENTIST TEAM BY SPECIALLITY</h4>
+                        <p>An ideal way to manage your team is seing who can do what!</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="images/manage.png" alt="Sort by speciallity">
+                        <h4>MANAGE DOCTORS AND PATIENTS</h4>
+                        <p>Keep on control with of who interacts with your company.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Interface -->
+            <div id="Interface" class="container-fluid bg-default text-center">
+                <div class="row">
+                    <div id="iPicture" class="col-sm-12 slideanim">
+                        <h2>INTERFACE</h2>
+                        <h4>Take a look at the interface of DenTOP</h4><br/><br/>
+                        <div class="slide">
+                            <div id="picture1" style="background: url('images/SystemPrints/print-interface.png') no-repeat scroll 0 0 #393737; width: 1225px; height: 662px;position: relative; margin:0 auto;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Home -->
+    </div>
+
+
+    <!-- Footer -->
+    <footer id="credits" class="container-fluid text-center">
+        <a href="#myPage" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>
+        <p>Appointment free icon made by <a href="http://www.flaticon.com/authors/freepik">Freepik</a> at <a href="http://www.flaticon.com/free-icon/appointment_304701#term=appointment&page=1&position=20"> flaticon</a></p>
+        <p>Records free icon made by <a href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> at <a href="http://www.flaticon.com/free-icon/records_139243#term=dentist&page=1&position=18"> flaticon</a></p>
+        <p>Dentist free icon made by <a href="http://www.flaticon.com/authors/freepik">Freepik</a> at <a href="http://www.flaticon.com/free-icon/dentist_323924#term=dentist&page=4&position=12"> flaticon</a></p>
+        <p>Customer free icon made by <a href="http://www.flaticon.com/authors/freepik">Freepik</a> at <a href="http://www.flaticon.com/free-icon/customer_227714#term=customer&page=5&position=39"> flaticon</a></p>
+        <p>Calendar free ccon made by <a href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> at <a href="http://www.flaticon.com/free-icon/calendar_149357#term=schedule&page=1&position=7"> flaticon</a></p>
+        <p>Automatic loading Icon made by <a href="http://www.flaticon.com/authors/dirtyworks">Dirtyworks</a> at <a href="http://www.flaticon.com/free-icon/automatic-loading_83880#term=automatic&page=1&position=10"> flaticon</a></p>
+        <p>Update free Icon made by <a href="http://www.flaticon.com/authors/freepik">Freepik</a> at <a href="http://www.flaticon.com/free-icon/update_228938#term=content&page=1&position=21"> flaticon</a></p>
+        <p>Photo Free Icon made by <a href="http://www.flaticon.com/authors/freepik">Freepik</a> at <a href="http://www.flaticon.com/free-icon/photo_120609#term=picture%20upload&page=1&position=1"> flaticon</a></p>
+        <p> Sort by attributes interface button option free icon made by <a href="http://www.flaticon.com/authors/dave-gandy">Dave Gandy</a> at <a href="http://www.flaticon.com/free-icon/sort-by-attributes-interface-button-option_25612#term=sort&page=1&position=10"> flaticon</a></p>
+        <p>Group free Icon made by <a href="http://www.flaticon.com/authors/freepik">Freepik</a> at <a href="http://www.flaticon.com/free-icon/group_115921"> flaticon</a></p>
+    </footer>
+</body>
+
+</html>
